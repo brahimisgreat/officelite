@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 5px #000;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  gap: 30px;
+}
+.header-bg {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+}
+
+.logo {
+  width: 154.617px;
+  height: 30px;
+}
+
+.illustration-charts {
+  width: 200px;
+  height: 223.579px;
+}
+
+.headerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.hText {
+  color: var(--colors-neutral-800, #333950);
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+}
+
+.hPara {
+  color: var(--colors-neutral-500, #747b95);
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+.headerBtn {
+  display: flex;
+  padding: var(--corner-radius-12, 12px) var(--spacing-500, 40px);
+  align-items: center;
+  gap: 10px;
+  border-radius: var(--corner-radius-full, 999px);
+  background: var(--colors-blue-500, #5175ff);
+  box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.25);
+    color: var(--colors-neutral-0, #ffffff);
+    border: none;
+}

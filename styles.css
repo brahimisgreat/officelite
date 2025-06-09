@@ -340,17 +340,20 @@ main {
 
   .card, .card2{
     width: 100%;
-    height: 219px;
-flex-direction: row;
-    justify-content: space-between;
+    height: 259px;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 350px;
     align-items: center;
     padding: 0 40px;
+    position: relative;
   }
 
   .pricing-bg{
     display: block;
     position: absolute;
-    right: 31%
+    right: 31%;
+    z-index: 3
   }
 
   .cardHeader{
@@ -358,15 +361,11 @@ flex-direction: row;
     flex-direction: column;
     align-items: start;
     position: relative;
+    margin-bottom: 60px;
+    
   }
 
-  .card2 .cardHeader{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    position: relative;
-  }
+ 
 
   .cardheader h5 {
     text-align: left;
@@ -375,5 +374,11 @@ flex-direction: row;
 
   .cardBtnB{
     position:absolute;
+    left: 6%;
+    bottom: 9%;    
+  }
+
+  .cardBody, .card2 .cardBody {
+    align-items: start;
   }
 }
